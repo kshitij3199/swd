@@ -1,0 +1,19 @@
+<html>
+<script type ="text/javascript">
+function work(day){
+a = Studentclass()
+		date = fname.text
+		a.Days = date
+		username = request.user.username
+		a.namestudent = username
+		a.save()
+
+}
+</script>
+hello, {{request.user.username}}<br>
+ 
+<form onclick="work()">
+  DAys for which LEAVe reQuIred : <input type="text" name="fname"><br>
+  <input type="submit" value="Submit">
+</form>
+</html>
